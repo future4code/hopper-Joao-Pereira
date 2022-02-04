@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Na semana 0 da **Labenu**, tive minha primeira e animadora experiencia com terminal. Na verdade já tinha utilizado o **CMD** do **Windowns** antes, mas nunca tinha passado de um **ip config**. Aprendi alguns comandos tanto de **Git** quanto de **GitHub**, que em algum momento, pensei que fossem a mesma coisa. **Estou gostando bastante! ツ**
