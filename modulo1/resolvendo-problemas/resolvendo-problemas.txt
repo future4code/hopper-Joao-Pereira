@@ -1,0 +1,15 @@
+------------ Exercícios de fixação do conhecimento
+
+Step I - Ter Atenção no Enunciado. É importante destrincharmos bem o enunciado, saber interpreta-lo e separar as peças chaves.
+
+Step II - retirar Informações relevantes. Conseguir retirar do enunciado as informações cruciais para o esboço do nosso código.
+
+Step III - Pensar Entradas e saídas. É pensarmos nos dados a serem trabalhados. O que irá ser processado pelo nosso código. O que será inserido pelo usuário ou coletado do banco de dados por exemplo, e qual será o resultado dos dados depois de serem trabalhados.
+
+Step IV - fazer um esquema Visual. É literalmente desenhar as etapas do nosso código, para serem interpretadas visualmente.
+
+Step V - Criar Código Feio. É criar um código que tenha lógica, mesmo sem uma linguagem de programação específica, mas que faça sentido para implementação de uma linguagem.
+
+Step VI - Testar Força-Bruta. É transcrever o código do passo anterior em uma linguagem que o computador pode interpretar. Testar e ver se estamos no caminho certo.
+
+Step VII - Refatorar. É fazer uma geral. Renomear variáveis, funções, deixar o código limpo.
