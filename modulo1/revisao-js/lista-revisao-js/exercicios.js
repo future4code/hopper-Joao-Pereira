@@ -50,17 +50,17 @@ function retornaNumerosParesElevadosADois(array) {
 }
 retornaNumerosParesElevadosADois()
 
-// // EXERCÍCIO 06
-// function retornaMaiorNumero(array) {
-//   let mariorNum = array[0]
-//     for(let i = 0; i < array.length; i++){
-//       if(array[i] > mariorNum){
-//           mariorNum = array[i]
-//       }
-//   }
-//     return mariorNum
-// }
-// retornaMaiorNumero()
+// EXERCÍCIO 06
+function retornaMaiorNumero(array) {
+  let mariorNum = array[0]
+    for(let i = 0; i < array.length; i++){
+      if(array[i] > mariorNum){
+          mariorNum = array[i]
+      }
+  }
+    return mariorNum
+}
+retornaMaiorNumero()
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
