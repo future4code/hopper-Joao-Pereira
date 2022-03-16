@@ -24,18 +24,18 @@ function retornaArrayOrdenado(array) {
 }
 retornaArrayOrdenado()
 
-// // EXERCÍCIO 04
-// function retornaNumerosPares(array) {
-//   let newArray = []
+// EXERCÍCIO 04
+function retornaNumerosPares(array) {
+  let newArray = []
 
-//   for(item of array){
-//       if(item % 2 === 0){
-//           newArray.push(item)
-//       }
-//   }
-//   return newArray
-// }
-// retornaNPrimeirosPares()
+  for(item of array){
+      if(item % 2 === 0){
+          newArray.push(item)
+      }
+  }
+  return newArray
+}
+retornaNPrimeirosPares()
 
 // // EXERCÍCIO 05
 // function retornaNumerosParesElevadosADois(array) {
