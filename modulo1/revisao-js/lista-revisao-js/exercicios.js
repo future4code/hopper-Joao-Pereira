@@ -37,18 +37,18 @@ function retornaNumerosPares(array) {
 }
 retornaNPrimeirosPares()
 
-// // EXERCÍCIO 05
-// function retornaNumerosParesElevadosADois(array) {
-//     let newArray = []
+// EXERCÍCIO 05
+function retornaNumerosParesElevadosADois(array) {
+    let newArray = []
 
-//     for(item of array){
-//         if(item % 2 === 0){
-//             newArray.push(item * item)
-//         }
-//     }
-//     return newArray
-// }
-// retornaNumerosParesElevadosADois()
+    for(item of array){
+        if(item % 2 === 0){
+            newArray.push(item * item)
+        }
+    }
+    return newArray
+}
+retornaNumerosParesElevadosADois()
 
 // // EXERCÍCIO 06
 // function retornaMaiorNumero(array) {
