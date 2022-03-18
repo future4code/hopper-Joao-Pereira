@@ -110,8 +110,13 @@ retornaChamadaDeFilme()
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+   let novoObjeto = {
+  ...pessoa,
+  nome: "ANÔNIMO"}
+
+  return novoObjeto
 }
+retornaPessoaAnonimizada()
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
