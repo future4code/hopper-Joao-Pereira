@@ -99,7 +99,7 @@ classificaTriangulo()
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+ 
 }
 
 // EXERCÍCIO 11
