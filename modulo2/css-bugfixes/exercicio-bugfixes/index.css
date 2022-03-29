@@ -112,7 +112,15 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+
 }
+
+button:hover{
+    background: black;
+    color: white;
+    transition: 1s;
+}
+
 
 .container-do-search {
     margin-top: 20px;
@@ -133,6 +141,8 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
+
 
 table{
     text-align: center;
