@@ -151,3 +151,8 @@ table{
 table img{
     width: 50px;
 }
+
+input{
+    border: none;
+    border-bottom: 2px solid black;
+}
