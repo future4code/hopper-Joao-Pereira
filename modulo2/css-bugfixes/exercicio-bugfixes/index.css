@@ -53,6 +53,7 @@ div img {
 .container {
     height: 500px;
     text-align: center;
+    position: relative;
 }
 
 .icone {
@@ -66,10 +67,13 @@ div img {
   *
   **/
 
+
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    line-height: 30px;
 }
+
 
 #container-de-descricao>ol {
     padding: 15px 0px;
@@ -84,7 +88,6 @@ div img {
     padding: 100px 0;
     font-size: 60px;
 }
-
 
 /**
   *
@@ -128,3 +131,4 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
