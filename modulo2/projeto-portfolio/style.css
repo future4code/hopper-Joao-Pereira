@@ -103,3 +103,13 @@ h3{
     padding: 60px;
     text-indent: 60px;
 }
+
+/* --------------------------------------------------- */
+
+.social{
+    background-color: aqua;
+}
+
+.social img{
+    width: 50px;
+}
