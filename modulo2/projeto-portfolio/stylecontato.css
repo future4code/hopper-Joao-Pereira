@@ -112,6 +112,64 @@ h3{
 
 /* --------------------------------------------------- */
 
+
+.contato{
+    min-width: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.contato h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.contato label, .contato input, .contato textarea, .contato button{
+    display: block;
+    width: 600px;
+}
+
+.contato input, .contato textarea{
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.contato textarea{
+    resize: none;
+}
+
+
+button{
+    color: #fafafa;
+    font-size: 17px;
+    padding: 7px ;
+    background-color: #fa4b00;
+}
+
+button:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+
 .social{
     width: 100%;
     background-color: #1f1f1f;
