@@ -20,4 +20,4 @@ function filtraTarefas() {
 
 filtraTarefas()
 
-// Nao roudou :(
+// Nao roudouu, vou continuar tentando amanhã... :(
