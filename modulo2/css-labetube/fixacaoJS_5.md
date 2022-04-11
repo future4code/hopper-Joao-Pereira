@@ -1,3 +1,4 @@
+
 ˋˋˋ
 function criarArrayNomesAnimais() {
     const animais = [
