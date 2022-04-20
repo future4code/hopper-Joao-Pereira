@@ -1,0 +1,24 @@
+*{
+  /* text-align: center; */
+}
+
+#principal{
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border: 2px solid black;
+  width: 50vw; height: 99.4vh;
+}
+
+.usuario{
+  width: 10vw;
+}
+.mensagem{
+  width: 30vw;
+}
+.botao{
+  width:8vw;
+}
