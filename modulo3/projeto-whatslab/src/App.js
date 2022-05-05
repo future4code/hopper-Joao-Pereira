@@ -8,7 +8,7 @@ function App() {
 
       <div><input className='mensagem' placeholder='Mensagem'></input></div>
 
-      <div><button className='botao'>Enviar</button></div>
+      <div><button className='botão'>Enviar</button></div>
     </div>
   )
 }
