@@ -42,15 +42,35 @@ class App extends React.Component {
   };
 
   onChangeInput = (event) => {
-
+    this.setState({inputValue:event.target.value})
   }
 
   criaTarefa = () => {
+    const novaTarefa = {
+      id: Date.now(),
+      texto: this.state.inputValue,
+      completa: false
+    }
 
+    const novaListaDeTarefas = [... this.state.tarefas, novaTarefa]
+
+    this.setState({tarefas: novaListaDeTarefas})
   }
 
   selectTarefa = (id) => {
+    const novaListaDeTarefas = this.state.novaListaDeTarefas.map((tarefa) => {
+      if(id == tarefa.id){
+        const novaTarefa = {
+          ... tarefa,
+          completa: !tarefa.completa
+        }
+        return novaTarefa
+      }else{
+        return tarefa
+      }
+    })
 
+    this.setState({tarefas: novaListaDeTarefas})
   }
 
   onChangeFilter = (event) => {
@@ -73,7 +93,9 @@ class App extends React.Component {
       <div className="App">
         <h1>Lista de tarefas</h1>
         <InputsContainer>
+
           <input value={this.state.inputValue} onChange={this.onChangeInput}/>
+
           <button onClick={this.criaTarefa}>Adicionar</button>
         </InputsContainer>
         <br/>
