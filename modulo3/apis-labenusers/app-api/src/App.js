@@ -1,38 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import axios from 'axios';
+import Cadastro from './Components/Cadastro';
+import Listas from './Components/Listas';
 
-export class App extends React.Component {
+class App extends React.Component {
 
   state = {
-    body = {
-      "name": "",
-      "email": ""
-    }
+    telaAtual:"cadastro"
   }
 
-  funcaoCadastrar = () => {
-    axios.post('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users', body, {
-      headers: {
-        Authorization: "joao-otavio-hopper"
-      }
-    })
+  trocarTela = () => {
+    this.setState({telaAtual: this.state.telaAtual === "cadastro"} 
+    ? "lista" 
+    : "cadastro")
   }
 
   render() {
     return (
       <div className="App">
-        <h1>Tela de Cadastro</h1>
-
-        <label>&#x1f4e7;</label>
-        <input type='email' placeholder='E-mail'></input><br/>
-
-        <label>&#x1f642;</label>
-        <input type='text' placeholder='Nome'></input><br/>
-        <button onClick={this.funcaoCadastrar}>Cadastrar</button>
+        {
+          this.state.telaAtual === "cadastro" ? <Cadastro/> : <Listas/>
+        }
       </div>
-   );
+   )
   }
 }
 
