@@ -6,7 +6,12 @@
   "scripts": {
     "start": "tsc && node ./build/index.js",
     "exercicio-1": "tsc && node ./build/exercicio-1.js",
-    "exercicio-2": "tsc && node ./build/exercicio-2.js"
+    "exercicio-2": "tsc && node ./build/exercicio-2.js",
+    "exercicio-3": "tsc && node ./build/exercicio-3.js",
+    "exercicio-4": "tsc && node ./build/exercicio-4.js",
+    "exercicio-5": "tsc && node ./build/exercicio-5.js",
+    "exercicio-6": "tsc && node ./build/exercicio-6.js",
+    "exercicio-7": "tsc && node ./build/exercicio-7.js"
   },
   "keywords": [],
   "author": "João Otávio",
