@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Joao Otavio",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.13"
+  }
 }
