@@ -1,8 +1,16 @@
 USE `Hopper-4313997-joao-silva`;
 
-CREATE TABLE Quadro_De_Funcionarios(
-	id INT NOT NULL AUTO_INCREMENT,
-    nome VARCHAR(38),
-    email VARCHAR(100) NOT NULL UNIQUE,
-    PRIMARY KEY (id)
+CREATE TABLE Funcionarios(
+	id INT NOT NULL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE
 );
+
+
+INSERT INTO Funcionarios(id, nome, email)
+VALUES ("1","Luana","lua@lbn.com"),
+       ("2","Vinicius","vini@lbn.com"), 
+       ("3", "Laura", "lau@lbn.com");
+       
+       
+SELECT * FROM Funcionarios;
